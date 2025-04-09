@@ -1,0 +1,42 @@
+2025-02-28 22:41:05.808 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 35300 (D:\defaultFile\window\study\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\study\12306\yiersanlingliu)
+2025-02-28 22:41:05.809 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-02-28 22:41:05.914 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=879927aa-611f-35b8-b068-869aae0349f1
+2025-02-28 22:41:05.947 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-02-28 22:41:05.948 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-02-28 22:41:05.949 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-28 22:41:05.960 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-02-28 22:41:05.960 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 150 ms
+2025-02-28 22:41:06.006 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-02-28 22:41:07.156 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-02-28 22:41:07.183 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-02-28 22:41:08.311 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-02-28 22:41:08.315 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 3.772 seconds (process running for 296.957)
+2025-02-28 22:41:08.317 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2025-02-28 22:41:08.317 INFO  com.fengye.MemberApplication                      :24   [32m                  [0;39m 启动成功！！
+2025-02-28 22:41:08.318 INFO  com.fengye.MemberApplication                      :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-02-28 22:44:03.414 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-28 22:44:03.414 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-02-28 22:44:03.415 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2025-02-28 22:53:43.994 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-28 22:53:44.040 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-02-28 22:56:00.359 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 26760 (D:\defaultFile\window\study\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\study\12306\yiersanlingliu)
+2025-02-28 22:56:00.361 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-02-28 22:56:00.413 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-28 22:56:00.413 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-28 22:56:00.947 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cfe0962e-095d-353d-adde-c092f5976947
+2025-02-28 22:56:01.452 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-02-28 22:56:01.464 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-02-28 22:56:01.466 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-02-28 22:56:01.466 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-28 22:56:01.509 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-02-28 22:56:01.510 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1096 ms
+2025-02-28 22:56:01.931 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-02-28 22:56:03.064 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-02-28 22:56:03.103 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-02-28 22:56:03.121 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-02-28 22:56:04.231 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-02-28 22:56:04.240 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.514 seconds (process running for 6.161)
+2025-02-28 22:56:04.244 INFO  com.fengye.MemberApplication                      :24   [32m                  [0;39m 启动成功！！
+2025-02-28 22:56:04.245 INFO  com.fengye.MemberApplication                      :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-02-28 23:02:12.653 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-28 23:02:12.720 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
