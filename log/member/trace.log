@@ -337,3 +337,383 @@ org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'applic
 2025-04-07 18:14:55.523 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
 2025-04-07 18:14:55.589 INFO  com.zaxxer.hikari.HikariDataSource                :349  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2025-04-07 18:14:55.606 INFO  com.zaxxer.hikari.HikariDataSource                :351  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-04-12 16:46:35.105 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 16:46:35.146 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 21.0.5 with PID 5944 (D:\defaultFile\window\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 16:46:35.147 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 16:46:36.000 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=7ee9eb92-600d-3866-8505-cd342c66fcb0
+2025-04-12 16:46:36.393 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-04-12 16:46:36.418 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-12 16:46:36.420 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-04-12 16:46:36.424 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-12 16:46:36.471 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-04-12 16:46:36.471 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1288 ms
+2025-04-12 16:46:38.270 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 16:46:38.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-04-12 16:46:38.336 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-04-12 16:46:39.359 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 16:46:39.365 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.798 seconds (process running for 7.031)
+2025-04-12 16:46:39.367 INFO  com.fengye.MemberApplication                      :26   [32m                  [0;39m 启动成功！！
+2025-04-12 16:46:39.368 INFO  com.fengye.MemberApplication                      :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-04-12 16:47:29.611 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 16:47:29.634 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 16:47:57.288 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 16:47:57.326 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 21.0.5 with PID 1720 (D:\defaultFile\window\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 16:47:57.327 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 16:47:57.954 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=7ee9eb92-600d-3866-8505-cd342c66fcb0
+2025-04-12 16:47:58.326 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-04-12 16:47:58.339 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-12 16:47:58.340 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-04-12 16:47:58.341 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-12 16:47:58.398 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-04-12 16:47:58.399 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1029 ms
+2025-04-12 16:48:00.103 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 16:48:00.148 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-04-12 16:48:00.163 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-04-12 16:48:01.186 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 16:48:01.196 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.442 seconds (process running for 6.036)
+2025-04-12 16:48:01.198 INFO  com.fengye.MemberApplication                      :26   [32m                  [0;39m 启动成功！！
+2025-04-12 16:48:01.198 INFO  com.fengye.MemberApplication                      :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-04-12 16:48:25.970 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 16:48:25.988 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 16:48:38.106 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 16:48:38.143 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 21.0.5 with PID 2788 (D:\defaultFile\window\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 16:48:38.144 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 16:48:38.832 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=7ee9eb92-600d-3866-8505-cd342c66fcb0
+2025-04-12 16:48:39.227 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-04-12 16:48:39.236 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-12 16:48:39.238 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-04-12 16:48:39.238 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-12 16:48:39.301 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-04-12 16:48:39.301 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1121 ms
+2025-04-12 16:48:41.015 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 16:48:41.059 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-04-12 16:48:41.073 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-04-12 16:48:42.101 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 16:48:42.107 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.466 seconds (process running for 6.684)
+2025-04-12 16:48:42.109 INFO  com.fengye.MemberApplication                      :26   [32m                  [0;39m 启动成功！！
+2025-04-12 16:48:42.110 INFO  com.fengye.MemberApplication                      :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-04-12 16:58:06.937 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 16:58:06.959 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 17:00:46.770 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 17:00:46.810 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 21.0.5 with PID 4804 (D:\defaultFile\window\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 17:00:46.810 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 17:00:47.568 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=161d86ff-3c9a-38d0-a300-165256409e10
+2025-04-12 17:00:47.965 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-04-12 17:00:47.982 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:00:47.984 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-04-12 17:00:47.984 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-12 17:00:48.027 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-04-12 17:00:48.028 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1176 ms
+2025-04-12 17:00:49.776 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:00:49.815 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:00:49.829 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-04-12 17:00:50.846 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:00:50.852 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.641 seconds (process running for 6.716)
+2025-04-12 17:00:50.855 INFO  com.fengye.MemberApplication                      :26   [32m                  [0;39m 启动成功！！
+2025-04-12 17:00:50.856 INFO  com.fengye.MemberApplication                      :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-04-12 17:00:55.188 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 17:00:55.206 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 17:01:06.912 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 17:01:06.961 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 21.0.5 with PID 1972 (D:\defaultFile\window\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 17:01:06.962 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 17:01:07.678 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=161d86ff-3c9a-38d0-a300-165256409e10
+2025-04-12 17:01:08.084 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-04-12 17:01:08.101 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:01:08.103 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-04-12 17:01:08.103 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-12 17:01:08.143 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-04-12 17:01:08.144 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1134 ms
+2025-04-12 17:01:09.880 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:01:09.923 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:01:09.938 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-04-12 17:01:10.956 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:01:10.964 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.554 seconds (process running for 6.248)
+2025-04-12 17:01:10.966 INFO  com.fengye.MemberApplication                      :26   [32m                  [0;39m 启动成功！！
+2025-04-12 17:01:10.966 INFO  com.fengye.MemberApplication                      :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-04-12 17:11:52.149 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 17:11:52.150 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-04-12 17:11:52.151 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2025-04-12 17:11:52.288 INFO  com.fengye.common.aspect.LogAspect                :48   [32m17444491121711bm  [0;39m ------------- 开始 -------------
+2025-04-12 17:11:52.289 INFO  com.fengye.common.aspect.LogAspect                :49   [32m17444491121711bm  [0;39m 请求地址: http://127.0.0.1:8081/member/member/send-code POST
+2025-04-12 17:11:52.289 INFO  com.fengye.common.aspect.LogAspect                :50   [32m17444491121711bm  [0;39m 类名方法: com.fengye.controller.MemberController.sendCode
+2025-04-12 17:11:52.289 INFO  com.fengye.common.aspect.LogAspect                :51   [32m17444491121711bm  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:11:52.352 INFO  com.fengye.common.aspect.LogAspect                :72   [32m17444491121711bm  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2025-04-12 17:11:52.425 INFO  com.zaxxer.hikari.HikariDataSource                :109  [32m17444491121711bm  [0;39m HikariPool-1 - Starting...
+2025-04-12 17:11:52.798 INFO  com.zaxxer.hikari.pool.HikariPool                 :554  [32m17444491121711bm  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2470c7a6
+2025-04-12 17:11:52.800 INFO  com.zaxxer.hikari.HikariDataSource                :122  [32m17444491121711bm  [0;39m HikariPool-1 - Start completed.
+2025-04-12 17:11:52.843 INFO  com.fengye.common.aspect.LogAspect                :84   [32m17444491121711bm  [0;39m 返回结果: {"success":true}
+2025-04-12 17:11:52.844 INFO  com.fengye.common.aspect.LogAspect                :85   [32m17444491121711bm  [0;39m ------------- 结束 耗时：558 ms -------------
+2025-04-12 17:11:54.783 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m1744449114783dxf  [0;39m MemberInterceptor开始
+2025-04-12 17:11:54.784 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m1744449114783dxf  [0;39m MemberInterceptor结束
+2025-04-12 17:11:54.793 INFO  com.fengye.common.aspect.LogAspect                :48   [32m1744449114783dxf  [0;39m ------------- 开始 -------------
+2025-04-12 17:11:54.793 INFO  com.fengye.common.aspect.LogAspect                :49   [32m1744449114783dxf  [0;39m 请求地址: http://127.0.0.1:8081/member/member/login POST
+2025-04-12 17:11:54.793 INFO  com.fengye.common.aspect.LogAspect                :50   [32m1744449114783dxf  [0;39m 类名方法: com.fengye.controller.MemberController.login
+2025-04-12 17:11:54.793 INFO  com.fengye.common.aspect.LogAspect                :51   [32m1744449114783dxf  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:11:54.796 INFO  com.fengye.common.aspect.LogAspect                :72   [32m1744449114783dxf  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2025-04-12 17:11:54.868 INFO  com.fengye.common.utils.JwtUtil                   :25   [32m1744449114783dxf  [0;39m 开始生成JWT token，id：1910234881573654528，mobile：13000000000
+2025-04-12 17:11:55.141 INFO  com.fengye.common.utils.JwtUtil                   :40   [32m1744449114783dxf  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:11:55.145 INFO  com.fengye.common.aspect.LogAspect                :84   [32m1744449114783dxf  [0;39m 返回结果: {"content":{"id":1910234881573654528,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk"},"success":true}
+2025-04-12 17:11:55.146 INFO  com.fengye.common.aspect.LogAspect                :85   [32m1744449114783dxf  [0;39m ------------- 结束 耗时：353 ms -------------
+2025-04-12 17:12:00.384 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m1744449120384ja6  [0;39m MemberInterceptor开始
+2025-04-12 17:12:00.385 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m1744449120384ja6  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:00.395 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m1744449120384ja6  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:00.395 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m1744449120384ja6  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:00.402 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m1744449120384ja6  [0;39m MemberInterceptor结束
+2025-04-12 17:12:00.420 INFO  com.fengye.common.aspect.LogAspect                :48   [32m1744449120384ja6  [0;39m ------------- 开始 -------------
+2025-04-12 17:12:00.421 INFO  com.fengye.common.aspect.LogAspect                :49   [32m1744449120384ja6  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/query-list GET
+2025-04-12 17:12:00.421 INFO  com.fengye.common.aspect.LogAspect                :50   [32m1744449120384ja6  [0;39m 类名方法: com.fengye.controller.PassengerController.queryList
+2025-04-12 17:12:00.421 INFO  com.fengye.common.aspect.LogAspect                :51   [32m1744449120384ja6  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:12:00.424 INFO  com.fengye.common.aspect.LogAspect                :72   [32m1744449120384ja6  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-04-12 17:12:00.430 INFO  com.fengye.service.PassengerService               :65   [32m1744449120384ja6  [0;39m 查询页码：1
+2025-04-12 17:12:00.430 INFO  com.fengye.service.PassengerService               :66   [32m1744449120384ja6  [0;39m 每页条数：10
+2025-04-12 17:12:00.512 INFO  com.fengye.service.PassengerService               :71   [32m1744449120384ja6  [0;39m 总行数：1
+2025-04-12 17:12:00.513 INFO  com.fengye.service.PassengerService               :72   [32m1744449120384ja6  [0;39m 总页数：1
+2025-04-12 17:12:00.530 INFO  com.fengye.common.aspect.LogAspect                :84   [32m1744449120384ja6  [0;39m 返回结果: {"content":{"list":[{"id":1910607017899331584,"idCard":"12345","memberId":1910234881573654528,"name":"小帅","type":"3","updateTime":1744359185080}],"total":1},"success":true}
+2025-04-12 17:12:00.530 INFO  com.fengye.common.aspect.LogAspect                :85   [32m1744449120384ja6  [0;39m ------------- 结束 耗时：110 ms -------------
+2025-04-12 17:12:19.072 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m17444491390724er  [0;39m MemberInterceptor开始
+2025-04-12 17:12:19.073 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m17444491390724er  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:19.074 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m17444491390724er  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:19.074 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m17444491390724er  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:19.074 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m17444491390724er  [0;39m MemberInterceptor结束
+2025-04-12 17:12:19.086 INFO  com.fengye.common.aspect.LogAspect                :48   [32m17444491390724er  [0;39m ------------- 开始 -------------
+2025-04-12 17:12:19.087 INFO  com.fengye.common.aspect.LogAspect                :49   [32m17444491390724er  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/save POST
+2025-04-12 17:12:19.087 INFO  com.fengye.common.aspect.LogAspect                :50   [32m17444491390724er  [0;39m 类名方法: com.fengye.controller.PassengerController.save
+2025-04-12 17:12:19.087 INFO  com.fengye.common.aspect.LogAspect                :51   [32m17444491390724er  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:12:19.090 INFO  com.fengye.common.aspect.LogAspect                :72   [32m17444491390724er  [0;39m 请求参数: [{"idCard":"21809X","name":"小徐","type":"1"}]
+2025-04-12 17:12:19.121 INFO  com.fengye.common.aspect.LogAspect                :84   [32m17444491390724er  [0;39m 返回结果: {"success":true}
+2025-04-12 17:12:19.122 INFO  com.fengye.common.aspect.LogAspect                :85   [32m17444491390724er  [0;39m ------------- 结束 耗时：36 ms -------------
+2025-04-12 17:12:19.146 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m1744449139146mo3  [0;39m MemberInterceptor开始
+2025-04-12 17:12:19.146 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m1744449139146mo3  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:19.147 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m1744449139146mo3  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:19.147 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m1744449139146mo3  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:19.147 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m1744449139146mo3  [0;39m MemberInterceptor结束
+2025-04-12 17:12:19.149 INFO  com.fengye.common.aspect.LogAspect                :48   [32m1744449139146mo3  [0;39m ------------- 开始 -------------
+2025-04-12 17:12:19.149 INFO  com.fengye.common.aspect.LogAspect                :49   [32m1744449139146mo3  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/query-list GET
+2025-04-12 17:12:19.149 INFO  com.fengye.common.aspect.LogAspect                :50   [32m1744449139146mo3  [0;39m 类名方法: com.fengye.controller.PassengerController.queryList
+2025-04-12 17:12:19.149 INFO  com.fengye.common.aspect.LogAspect                :51   [32m1744449139146mo3  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:12:19.150 INFO  com.fengye.common.aspect.LogAspect                :72   [32m1744449139146mo3  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-04-12 17:12:19.150 INFO  com.fengye.service.PassengerService               :65   [32m1744449139146mo3  [0;39m 查询页码：1
+2025-04-12 17:12:19.150 INFO  com.fengye.service.PassengerService               :66   [32m1744449139146mo3  [0;39m 每页条数：10
+2025-04-12 17:12:19.161 INFO  com.fengye.service.PassengerService               :71   [32m1744449139146mo3  [0;39m 总行数：2
+2025-04-12 17:12:19.161 INFO  com.fengye.service.PassengerService               :72   [32m1744449139146mo3  [0;39m 总页数：1
+2025-04-12 17:12:19.162 INFO  com.fengye.common.aspect.LogAspect                :84   [32m1744449139146mo3  [0;39m 返回结果: {"content":{"list":[{"id":1910984312375873536,"idCard":"21809X","memberId":1910234881573654528,"name":"小徐","type":"1","updateTime":1744449139090},{"id":1910607017899331584,"idCard":"12345","memberId":1910234881573654528,"name":"小帅","type":"3","updateTime":1744359185080}],"total":2},"success":true}
+2025-04-12 17:12:19.163 INFO  com.fengye.common.aspect.LogAspect                :85   [32m1744449139146mo3  [0;39m ------------- 结束 耗时：14 ms -------------
+2025-04-12 17:12:26.108 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m1744449146108ra1  [0;39m MemberInterceptor开始
+2025-04-12 17:12:26.109 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m1744449146108ra1  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:26.109 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m1744449146108ra1  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:26.109 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m1744449146108ra1  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:12:26.110 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m1744449146108ra1  [0;39m MemberInterceptor结束
+2025-04-12 17:12:26.114 ERROR c.f.common.controller.ControllerExceptionHandler  :34   [32m1744449146108ra1  [0;39m 系统异常：
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2025-04-11 16:13:05": not a valid representation (error: Failed to parse Date value '2025-04-11 16:13:05': Cannot parse date "2025-04-11 16:13:05": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:409)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:357)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:204)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:176)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:150)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:226)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:180)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2025-04-11 16:13:05": not a valid representation (error: Failed to parse Date value '2025-04-11 16:13:05': Cannot parse date "2025-04-11 16:13:05": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 137] (through reference chain: com.fengye.req.PassengerSaveReq["updateTime"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1959)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1245)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseDate(StdDeserializer.java:1379)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseDate(StdDeserializer.java:1321)
+	at com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateBasedDeserializer._parseDate(DateDeserializers.java:201)
+	at com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateDeserializer.deserialize(DateDeserializers.java:303)
+	at com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateDeserializer.deserialize(DateDeserializers.java:281)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:398)
+	... 51 common frames omitted
+2025-04-12 17:13:20.610 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 17:13:20.631 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 17:13:20.635 INFO  com.zaxxer.hikari.HikariDataSource                :349  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-04-12 17:13:20.643 INFO  com.zaxxer.hikari.HikariDataSource                :351  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-04-12 17:13:25.196 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 17:13:25.236 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 21.0.5 with PID 33084 (D:\defaultFile\window\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 17:13:25.236 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 17:13:25.906 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=161d86ff-3c9a-38d0-a300-165256409e10
+2025-04-12 17:13:26.304 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-04-12 17:13:26.327 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:13:26.334 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-04-12 17:13:26.334 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-12 17:13:26.388 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-04-12 17:13:26.389 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1115 ms
+2025-04-12 17:13:28.164 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:13:28.207 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:13:28.222 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-04-12 17:13:29.247 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:13:29.257 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.537 seconds (process running for 6.148)
+2025-04-12 17:13:29.259 INFO  com.fengye.MemberApplication                      :26   [32m                  [0;39m 启动成功！！
+2025-04-12 17:13:29.260 INFO  com.fengye.MemberApplication                      :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-04-12 17:13:36.815 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 17:13:36.816 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-04-12 17:13:36.817 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2025-04-12 17:13:36.839 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m1744449216835sf3  [0;39m MemberInterceptor开始
+2025-04-12 17:13:36.840 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m1744449216835sf3  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:13:36.977 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m1744449216835sf3  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:13:36.980 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m1744449216835sf3  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:13:37.013 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m1744449216835sf3  [0;39m MemberInterceptor结束
+2025-04-12 17:13:37.120 INFO  com.fengye.common.aspect.LogAspect                :48   [32m1744449216835sf3  [0;39m ------------- 开始 -------------
+2025-04-12 17:13:37.120 INFO  com.fengye.common.aspect.LogAspect                :49   [32m1744449216835sf3  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/save POST
+2025-04-12 17:13:37.121 INFO  com.fengye.common.aspect.LogAspect                :50   [32m1744449216835sf3  [0;39m 类名方法: com.fengye.controller.PassengerController.save
+2025-04-12 17:13:37.121 INFO  com.fengye.common.aspect.LogAspect                :51   [32m1744449216835sf3  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:13:37.165 INFO  com.fengye.common.aspect.LogAspect                :72   [32m1744449216835sf3  [0;39m 请求参数: [{"idCard":"12345","name":"小帅","type":"1","updateTime":1744359185000}]
+2025-04-12 17:13:37.185 INFO  com.zaxxer.hikari.HikariDataSource                :109  [32m1744449216835sf3  [0;39m HikariPool-1 - Starting...
+2025-04-12 17:13:37.397 INFO  com.zaxxer.hikari.pool.HikariPool                 :554  [32m1744449216835sf3  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d5c9b71
+2025-04-12 17:13:37.398 INFO  com.zaxxer.hikari.HikariDataSource                :122  [32m1744449216835sf3  [0;39m HikariPool-1 - Start completed.
+2025-04-12 17:13:37.423 INFO  com.fengye.common.aspect.LogAspect                :84   [32m1744449216835sf3  [0;39m 返回结果: {"success":true}
+2025-04-12 17:13:37.424 INFO  com.fengye.common.aspect.LogAspect                :85   [32m1744449216835sf3  [0;39m ------------- 结束 耗时：305 ms -------------
+2025-04-12 17:13:37.471 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m17444492174718km  [0;39m MemberInterceptor开始
+2025-04-12 17:13:37.471 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m17444492174718km  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:13:37.472 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m17444492174718km  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:13:37.472 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m17444492174718km  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:13:37.472 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m17444492174718km  [0;39m MemberInterceptor结束
+2025-04-12 17:13:37.489 INFO  com.fengye.common.aspect.LogAspect                :48   [32m17444492174718km  [0;39m ------------- 开始 -------------
+2025-04-12 17:13:37.489 INFO  com.fengye.common.aspect.LogAspect                :49   [32m17444492174718km  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/query-list GET
+2025-04-12 17:13:37.489 INFO  com.fengye.common.aspect.LogAspect                :50   [32m17444492174718km  [0;39m 类名方法: com.fengye.controller.PassengerController.queryList
+2025-04-12 17:13:37.489 INFO  com.fengye.common.aspect.LogAspect                :51   [32m17444492174718km  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:13:37.491 INFO  com.fengye.common.aspect.LogAspect                :72   [32m17444492174718km  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-04-12 17:13:37.493 INFO  com.fengye.service.PassengerService               :65   [32m17444492174718km  [0;39m 查询页码：1
+2025-04-12 17:13:37.493 INFO  com.fengye.service.PassengerService               :66   [32m17444492174718km  [0;39m 每页条数：10
+2025-04-12 17:13:37.590 INFO  com.fengye.service.PassengerService               :71   [32m17444492174718km  [0;39m 总行数：3
+2025-04-12 17:13:37.590 INFO  com.fengye.service.PassengerService               :72   [32m17444492174718km  [0;39m 总页数：1
+2025-04-12 17:13:37.597 INFO  com.fengye.common.aspect.LogAspect                :84   [32m17444492174718km  [0;39m 返回结果: {"content":{"list":[{"id":1910984639829381120,"idCard":"12345","memberId":1910234881573654528,"name":"小帅","type":"1","updateTime":1744449217166},{"id":1910984312375873536,"idCard":"21809X","memberId":1910234881573654528,"name":"小徐","type":"1","updateTime":1744449139090},{"id":1910607017899331584,"idCard":"12345","memberId":1910234881573654528,"name":"小帅","type":"3","updateTime":1744359185080}],"total":3},"success":true}
+2025-04-12 17:13:37.597 INFO  com.fengye.common.aspect.LogAspect                :85   [32m17444492174718km  [0;39m ------------- 结束 耗时：108 ms -------------
+2025-04-12 17:15:05.837 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 17:15:05.855 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 17:15:05.863 INFO  com.zaxxer.hikari.HikariDataSource                :349  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-04-12 17:15:05.869 INFO  com.zaxxer.hikari.HikariDataSource                :351  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-04-12 17:15:10.617 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 17:15:10.657 INFO  com.fengye.MemberApplication                      :53   [32m                  [0;39m Starting MemberApplication using Java 21.0.5 with PID 6584 (D:\defaultFile\window\12306\yiersanlingliu\member\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 17:15:10.658 INFO  com.fengye.MemberApplication                      :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 17:15:11.352 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=161d86ff-3c9a-38d0-a300-165256409e10
+2025-04-12 17:15:11.743 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8081 (http)
+2025-04-12 17:15:11.769 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:15:11.776 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-04-12 17:15:11.776 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-12 17:15:11.824 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-04-12 17:15:11.825 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1131 ms
+2025-04-12 17:15:13.558 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:15:13.604 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2025-04-12 17:15:13.618 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8081 (http) with context path '/member'
+2025-04-12 17:15:14.644 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:15:14.654 INFO  com.fengye.MemberApplication                      :59   [32m                  [0;39m Started MemberApplication in 5.503 seconds (process running for 6.113)
+2025-04-12 17:15:14.656 INFO  com.fengye.MemberApplication                      :26   [32m                  [0;39m 启动成功！！
+2025-04-12 17:15:14.657 INFO  com.fengye.MemberApplication                      :27   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2025-04-12 17:15:27.857 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 17:15:27.858 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-04-12 17:15:27.859 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2025-04-12 17:15:27.884 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m1744449327880cq5  [0;39m MemberInterceptor开始
+2025-04-12 17:15:27.885 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m1744449327880cq5  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:28.035 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m1744449327880cq5  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:28.038 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m1744449327880cq5  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:28.073 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m1744449327880cq5  [0;39m MemberInterceptor结束
+2025-04-12 17:15:28.091 INFO  com.fengye.common.aspect.LogAspect                :48   [32m1744449327880cq5  [0;39m ------------- 开始 -------------
+2025-04-12 17:15:28.091 INFO  com.fengye.common.aspect.LogAspect                :49   [32m1744449327880cq5  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/delete/1910984639829381120 DELETE
+2025-04-12 17:15:28.092 INFO  com.fengye.common.aspect.LogAspect                :50   [32m1744449327880cq5  [0;39m 类名方法: com.fengye.controller.PassengerController.delete
+2025-04-12 17:15:28.092 INFO  com.fengye.common.aspect.LogAspect                :51   [32m1744449327880cq5  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:15:28.146 INFO  com.fengye.common.aspect.LogAspect                :72   [32m1744449327880cq5  [0;39m 请求参数: [1910984639829381120]
+2025-04-12 17:15:28.183 INFO  com.zaxxer.hikari.HikariDataSource                :109  [32m1744449327880cq5  [0;39m HikariPool-1 - Starting...
+2025-04-12 17:15:28.603 INFO  com.zaxxer.hikari.pool.HikariPool                 :554  [32m1744449327880cq5  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b145cd5
+2025-04-12 17:15:28.608 INFO  com.zaxxer.hikari.HikariDataSource                :122  [32m1744449327880cq5  [0;39m HikariPool-1 - Start completed.
+2025-04-12 17:15:28.693 INFO  com.fengye.common.aspect.LogAspect                :84   [32m1744449327880cq5  [0;39m 返回结果: {"success":true}
+2025-04-12 17:15:28.694 INFO  com.fengye.common.aspect.LogAspect                :85   [32m1744449327880cq5  [0;39m ------------- 结束 耗时：604 ms -------------
+2025-04-12 17:15:28.788 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m1744449328788brk  [0;39m MemberInterceptor开始
+2025-04-12 17:15:28.788 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m1744449328788brk  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:28.789 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m1744449328788brk  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:28.789 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m1744449328788brk  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:28.789 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m1744449328788brk  [0;39m MemberInterceptor结束
+2025-04-12 17:15:28.876 INFO  com.fengye.common.aspect.LogAspect                :48   [32m1744449328788brk  [0;39m ------------- 开始 -------------
+2025-04-12 17:15:28.876 INFO  com.fengye.common.aspect.LogAspect                :49   [32m1744449328788brk  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/query-list GET
+2025-04-12 17:15:28.877 INFO  com.fengye.common.aspect.LogAspect                :50   [32m1744449328788brk  [0;39m 类名方法: com.fengye.controller.PassengerController.queryList
+2025-04-12 17:15:28.877 INFO  com.fengye.common.aspect.LogAspect                :51   [32m1744449328788brk  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:15:28.883 INFO  com.fengye.common.aspect.LogAspect                :72   [32m1744449328788brk  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-04-12 17:15:28.887 INFO  com.fengye.service.PassengerService               :65   [32m1744449328788brk  [0;39m 查询页码：1
+2025-04-12 17:15:28.887 INFO  com.fengye.service.PassengerService               :66   [32m1744449328788brk  [0;39m 每页条数：10
+2025-04-12 17:15:29.043 INFO  com.fengye.service.PassengerService               :71   [32m1744449328788brk  [0;39m 总行数：2
+2025-04-12 17:15:29.044 INFO  com.fengye.service.PassengerService               :72   [32m1744449328788brk  [0;39m 总页数：1
+2025-04-12 17:15:29.068 INFO  com.fengye.common.aspect.LogAspect                :84   [32m1744449328788brk  [0;39m 返回结果: {"content":{"list":[{"id":1910984312375873536,"idCard":"21809X","memberId":1910234881573654528,"name":"小徐","type":"1","updateTime":1744449139090},{"id":1910607017899331584,"idCard":"12345","memberId":1910234881573654528,"name":"小帅","type":"3","updateTime":1744359185080}],"total":2},"success":true}
+2025-04-12 17:15:29.069 INFO  com.fengye.common.aspect.LogAspect                :85   [32m1744449328788brk  [0;39m ------------- 结束 耗时：193 ms -------------
+2025-04-12 17:15:33.968 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m174444933396860u  [0;39m MemberInterceptor开始
+2025-04-12 17:15:33.969 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m174444933396860u  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:33.970 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m174444933396860u  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:33.970 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m174444933396860u  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:33.970 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m174444933396860u  [0;39m MemberInterceptor结束
+2025-04-12 17:15:34.012 INFO  com.fengye.common.aspect.LogAspect                :48   [32m174444933396860u  [0;39m ------------- 开始 -------------
+2025-04-12 17:15:34.012 INFO  com.fengye.common.aspect.LogAspect                :49   [32m174444933396860u  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/save POST
+2025-04-12 17:15:34.013 INFO  com.fengye.common.aspect.LogAspect                :50   [32m174444933396860u  [0;39m 类名方法: com.fengye.controller.PassengerController.save
+2025-04-12 17:15:34.013 INFO  com.fengye.common.aspect.LogAspect                :51   [32m174444933396860u  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:15:34.017 INFO  com.fengye.common.aspect.LogAspect                :72   [32m174444933396860u  [0;39m 请求参数: [{"id":1910607017899331584,"idCard":"12345","memberId":1910234881573654528,"name":"小帅","type":"1","updateTime":1744359185000}]
+2025-04-12 17:15:34.035 INFO  com.fengye.common.aspect.LogAspect                :84   [32m174444933396860u  [0;39m 返回结果: {"success":true}
+2025-04-12 17:15:34.036 INFO  com.fengye.common.aspect.LogAspect                :85   [32m174444933396860u  [0;39m ------------- 结束 耗时：24 ms -------------
+2025-04-12 17:15:34.062 INFO  com.fengye.common.interceptor.MemberInterceptor   :27   [32m17444493340629a3  [0;39m MemberInterceptor开始
+2025-04-12 17:15:34.062 INFO  com.fengye.common.interceptor.MemberInterceptor   :31   [32m17444493340629a3  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:34.063 INFO  com.fengye.common.utils.JwtUtil                   :61   [32m17444493340629a3  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:34.063 INFO  com.fengye.common.interceptor.MemberInterceptor   :33   [32m17444493340629a3  [0;39m 当前登录会员：{"mobile":"13000000000","id":1910234881573654528}
+2025-04-12 17:15:34.064 INFO  com.fengye.common.interceptor.MemberInterceptor   :37   [32m17444493340629a3  [0;39m MemberInterceptor结束
+2025-04-12 17:15:34.065 INFO  com.fengye.common.aspect.LogAspect                :48   [32m17444493340629a3  [0;39m ------------- 开始 -------------
+2025-04-12 17:15:34.066 INFO  com.fengye.common.aspect.LogAspect                :49   [32m17444493340629a3  [0;39m 请求地址: http://127.0.0.1:8081/member/passenger/query-list GET
+2025-04-12 17:15:34.067 INFO  com.fengye.common.aspect.LogAspect                :50   [32m17444493340629a3  [0;39m 类名方法: com.fengye.controller.PassengerController.queryList
+2025-04-12 17:15:34.068 INFO  com.fengye.common.aspect.LogAspect                :51   [32m17444493340629a3  [0;39m 远程地址: 127.0.0.1
+2025-04-12 17:15:34.069 INFO  com.fengye.common.aspect.LogAspect                :72   [32m17444493340629a3  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-04-12 17:15:34.070 INFO  com.fengye.service.PassengerService               :65   [32m17444493340629a3  [0;39m 查询页码：1
+2025-04-12 17:15:34.070 INFO  com.fengye.service.PassengerService               :66   [32m17444493340629a3  [0;39m 每页条数：10
+2025-04-12 17:15:34.078 INFO  com.fengye.service.PassengerService               :71   [32m17444493340629a3  [0;39m 总行数：2
+2025-04-12 17:15:34.078 INFO  com.fengye.service.PassengerService               :72   [32m17444493340629a3  [0;39m 总页数：1
+2025-04-12 17:15:34.079 INFO  com.fengye.common.aspect.LogAspect                :84   [32m17444493340629a3  [0;39m 返回结果: {"content":{"list":[{"id":1910984312375873536,"idCard":"21809X","memberId":1910234881573654528,"name":"小徐","type":"1","updateTime":1744449139090},{"id":1910607017899331584,"idCard":"12345","memberId":1910234881573654528,"name":"小帅","type":"1","updateTime":1744449334020}],"total":2},"success":true}
+2025-04-12 17:15:34.079 INFO  com.fengye.common.aspect.LogAspect                :85   [32m17444493340629a3  [0;39m ------------- 结束 耗时：14 ms -------------
+2025-04-12 17:22:11.341 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 17:22:11.375 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 17:22:11.380 INFO  com.zaxxer.hikari.HikariDataSource                :349  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-04-12 17:22:11.394 INFO  com.zaxxer.hikari.HikariDataSource                :351  [32m                  [0;39m HikariPool-1 - Shutdown completed.

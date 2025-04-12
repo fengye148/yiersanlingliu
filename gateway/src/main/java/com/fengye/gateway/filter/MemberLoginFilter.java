@@ -21,7 +21,7 @@ public class MemberLoginFilter implements GlobalFilter, Ordered {
         if(Path.contains("/member/member/login")
         || Path.contains("/member/member/logout")
         || Path.contains("/member/member/register")
-        || Path.contains("/member/member/sned-code")
+        || Path.contains("/member/member/send-code")
         || Path.contains("/member/admin")) {
             return chain.filter(exchange);
         }

@@ -1,38 +1,38 @@
-package com.fengye.req;
+package com.fengye.resp;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.validation.constraints.NotBlank;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 
 import java.util.Date;
 
-public class PassengerSaveReq {
+public class PassengerQueryResp {
 
     /**
      * id
      */
+    @JsonSerialize(using= ToStringSerializer.class)
     private Long id;
 
     /**
      * 会员id
      */
+    @JsonSerialize(using= ToStringSerializer.class)
     private Long memberId;
 
     /**
      * 姓名
      */
-    @NotBlank(message = "【姓名】不能为空")
     private String name;
 
     /**
      * 身份证
      */
-    @NotBlank(message = "【身份证】不能为空")
     private String idCard;
 
     /**
      * 旅客类型|枚举[PassengerTypeEnum]
      */
-    @NotBlank(message = "【旅客类型】不能为空")
     private String type;
 
     /**

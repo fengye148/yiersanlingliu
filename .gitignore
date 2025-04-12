@@ -2,3 +2,5 @@
 /common/target/
 /gateway/target/
 /member/target/
+/log/
+/http/

@@ -63,3 +63,91 @@
 2025-04-07 16:52:26.615 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [07/4月/2025:16:52:25 +0800] "POST /member/member/login HTTP/1.1" 200 275 1070
 2025-04-07 18:14:55.446 INFO  o.s.boot.web.embedded.netty.GracefulShutdown      :53   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
 2025-04-07 18:14:55.504 INFO  o.s.boot.web.embedded.netty.GracefulShutdown      :62   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 17:03:12.050 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 17:03:12.093 INFO  com.fengye.gateway.GatewayApplication             :53   [32m                  [0;39m Starting GatewayApplication using Java 21.0.5 with PID 41584 (D:\defaultFile\window\12306\yiersanlingliu\gateway\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 17:03:12.093 INFO  com.fengye.gateway.GatewayApplication             :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 17:03:12.665 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5716caea-6283-38d7-a477-628f6ced6fe6
+2025-04-12 17:03:13.991 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:03:14.228 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-04-12 17:03:14.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-04-12 17:03:14.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-04-12 17:03:14.231 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-12 17:03:14.231 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-12 17:03:14.231 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-04-12 17:03:14.231 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-12 17:03:15.432 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:03:15.573 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :126  [32m                  [0;39m Netty started on port 8080 (http)
+2025-04-12 17:03:16.592 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:03:17.614 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:03:17.654 INFO  com.fengye.gateway.GatewayApplication             :59   [32m                  [0;39m Started GatewayApplication in 7.123 seconds (process running for 8.067)
+2025-04-12 17:03:17.658 INFO  com.fengye.gateway.GatewayApplication             :22   [32m                  [0;39m 启动成功！！
+2025-04-12 17:03:17.659 INFO  com.fengye.gateway.GatewayApplication             :23   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8080
+2025-04-12 17:10:30.406 INFO  com.fengye.gateway.filter.MemberLoginFilter       :31   [32m                  [0;39m token为空，已经被拦截
+2025-04-12 17:10:39.113 INFO  com.fengye.gateway.filter.MemberLoginFilter       :31   [32m                  [0;39m token为空，已经被拦截
+2025-04-12 17:11:33.400 INFO  o.s.boot.web.embedded.netty.GracefulShutdown      :53   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 17:11:33.402 INFO  o.s.boot.web.embedded.netty.GracefulShutdown      :62   [32m                  [0;39m Graceful shutdown complete
+2025-04-12 17:11:42.090 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 17:11:42.126 INFO  com.fengye.gateway.GatewayApplication             :53   [32m                  [0;39m Starting GatewayApplication using Java 21.0.5 with PID 8896 (D:\defaultFile\window\12306\yiersanlingliu\gateway\target\classes started by xu148 in D:\defaultFile\window\12306\yiersanlingliu)
+2025-04-12 17:11:42.127 INFO  com.fengye.gateway.GatewayApplication             :652  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-04-12 17:11:42.695 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5716caea-6283-38d7-a477-628f6ced6fe6
+2025-04-12 17:11:44.025 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:11:44.271 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-04-12 17:11:44.272 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-04-12 17:11:44.273 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-04-12 17:11:44.273 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-12 17:11:44.273 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-12 17:11:44.273 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-04-12 17:11:44.273 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-12 17:11:45.467 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:11:45.623 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :126  [32m                  [0;39m Netty started on port 8080 (http)
+2025-04-12 17:11:46.641 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:11:47.657 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2025-04-12 17:11:47.694 INFO  com.fengye.gateway.GatewayApplication             :59   [32m                  [0;39m Started GatewayApplication in 7.094 seconds (process running for 7.824)
+2025-04-12 17:11:47.698 INFO  com.fengye.gateway.GatewayApplication             :22   [32m                  [0;39m 启动成功！！
+2025-04-12 17:11:47.698 INFO  com.fengye.gateway.GatewayApplication             :23   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8080
+2025-04-12 17:12:00.119 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:00.375 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:12:00.376 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:12:19.066 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:19.067 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:12:19.068 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:12:19.140 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:19.141 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:12:19.142 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:12:26.103 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:12:26.104 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:12:26.105 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:13:36.772 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:13:36.772 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:13:36.772 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:13:37.467 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:13:37.467 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:13:37.468 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:15:27.812 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:27.813 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:15:27.813 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:15:28.782 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:28.783 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:15:28.784 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:15:33.964 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:33.965 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:15:33.966 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:15:34.056 INFO  com.fengye.gateway.utils.JwtUtil                  :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDQ0NDkxMTUsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE5MTAyMzQ4ODE1NzM2NTQ1MjgsImV4cCI6MTc0NDUzNTUxNSwiaWF0IjoxNzQ0NDQ5MTE1fQ.EsTZxvnKVWjN5FrcomzEUfk_0QZiJchdVGZRJa9YGYk
+2025-04-12 17:15:34.057 INFO  com.fengye.gateway.utils.JwtUtil                  :56   [32m                  [0;39m JWT token校验结果：true
+2025-04-12 17:15:34.058 INFO  com.fengye.gateway.filter.MemberLoginFilter       :40   [32m                  [0;39m token有效，请求通过
+2025-04-12 17:22:11.341 INFO  o.s.boot.web.embedded.netty.GracefulShutdown      :53   [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 17:22:11.347 INFO  o.s.boot.web.embedded.netty.GracefulShutdown      :62   [32m                  [0;39m Graceful shutdown complete
